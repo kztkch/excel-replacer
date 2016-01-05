@@ -1,0 +1,4 @@
+# First valid TSV line parsed as filename,header-left,header-center,header-right,footer-left,footer-center,foot-right
+	&"‚l‚r@‚oƒSƒVƒbƒN"&F - &A			&"‚l‚r@‚oƒSƒVƒbƒN"copyright 2016	&P/&N
+# Valid Lines after second parsed as filename.
+01_test.xlsx
