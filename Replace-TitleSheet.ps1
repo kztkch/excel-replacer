@@ -1,4 +1,4 @@
-param([string]$ReplaceFileList=".\replaceFile.lst", [switch]$Force, [switch]$Debug, [switch]$Dryrun, [string]$TmplTitleSheet=".\•\Ž†Œ©–{.xlsx")
+param([string]$ReplaceFileList=".\replaceFile.lst", [switch]$Force, [switch]$Debug, [switch]$Dryrun, [string]$TmplTitleSheet=".\TitleTemplate.xlsx")
 
 # Some Const..
 

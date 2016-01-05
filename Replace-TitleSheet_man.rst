@@ -17,7 +17,7 @@ Replace-TitleSheet.ps1開発メモ
 * ``-Force``: 通常は表紙置換内容のFromが一致しなかったり、既に置換済みで判断された場合は置換を行わない。しかし、本オプションを利用した場合は、テンプレートシート（後述のTmplTitleSheetオプションで指定）内の表紙シートをベースに強制置換する。
 * ``-Debug``: 本オプションを指定して実行した場合、Excelウィンドウを表示しながら動作するようになる。
 * ``-Dryrun``: 実際に変換が発生するかどうかだけを表示し、実際の変更は行わない。Forceオプションと組み合わせると表紙シートの有無だけを表示する。
-* ``-TmplTitleSheet filename``: Forceオプション指定時の差し替え用に使われる「表紙」シートを持つエクセルファイルを指定する。このシート内のTITLE_SOURCE,VERSION_SOURCE,DATE_SOURCE,ORGANIZATION_SOURCEというテキストがそれぞれ置換される。
+* ``-TmplTitleSheet filename``: Forceオプション指定時の差し替え用に使われる「表紙」シートを持つエクセルファイルを指定する。このシート内のTITLE_SOURCE,VERSION_SOURCE,DATE_SOURCE,ORGANIZATION_SOURCEというテキストがそれぞれ置換される。デフォルト値は ``.\TitleTemplate.xlsx``
 
 Disclaimer
 =================
